@@ -12,7 +12,8 @@ function App() {
       response.json()
     )
     .then((json)=>{
-      setAlbums(json)
+      const withHighlighted=json.map(album=>({...album,highlighted:false}))
+      setAlbums(withHighlighted)
     })
   })
 
