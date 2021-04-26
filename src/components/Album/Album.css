@@ -1,0 +1,12 @@
+.outer-li {
+  list-style-type: none ;
+  border: solid 1px grey;
+  margin: auto;
+  width: 50%;
+}
+
+.inner-horizontal-li{
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+}
